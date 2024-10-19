@@ -1,4 +1,4 @@
-// bigfoot - v2.1.4 - 2016.02.11
+// bigfoot - v2.1.4 - 2024.10.19
 
 
 //        ___       ___          ___       ___                      ___          ___
@@ -23,7 +23,7 @@
 $popover-width:                         22em !default;                           // Ideal width of the popover
 $popover-max-width:                     90% !default;                            // Best as a % to accommodate smaller viewports
 $popover-max-height:                    15em !default;                           // Maximum size of the content area
-$popover-color-background:              rgb(250, 250, 250) !default;             // Color of the popover background
+$popover-color-background:              rgb(250, 88, 88) !default;             // Color of the popover background
 $popover-border-radius:                 0.5em !default;                          // Radius of the corners of the popover
 $popover-border:                        1px solid rgb(195, 195, 195) !default;   // Border of the popover/ tooltip
 $popover-inactive-opacity:              0 !default;                              // Opacity of the popover when instantiated/ deactivating
@@ -108,7 +108,7 @@ $button-right-margin:                   0.1em !default;                         
 $button-vertical-adjust:                -0.1em !default;                         // Pushes the buttons along the vertical axis to align it with text as desired
 $button-inner-circle-left-margin:       1*$button-inner-circle-size !default;    // Space between the ellipsis circles
 
-$button-color:                          rgb(110, 110, 110) !default;             // Background color of the button
+$button-color:                          rgb(30, 30, 245) !default;             // Background color of the button
 $button-hovered-color:                  $button-color !default;                  // Background color of the button when being hovered
 $button-activating-color:               $button-color !default;                  // Background color of the button when being clicked
 $button-active-color:                   $button-color !default;                  // Background color of the button when active
