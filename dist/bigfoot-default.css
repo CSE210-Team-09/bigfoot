@@ -11,7 +11,7 @@
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
-  background-color: rgba(110, 110, 110, 0.2);
+  background-color: rgba(30, 30, 245, 0.2);
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -29,15 +29,15 @@
 .bigfoot-footnote__button:hover,
 .bigfoot-footnote__button:focus {
   outline: none;
-  background-color: rgba(110, 110, 110, 0.5);
+  background-color: rgba(30, 30, 245, 0.5);
 }
 
 .bigfoot-footnote__button:active {
-  background-color: rgba(110, 110, 110, 0.5);
+  background-color: rgba(30, 30, 245, 0.5);
 }
 
 .bigfoot-footnote__button.is-active {
-  background-color: #6e6e6e;
+  background-color: #1e1ef5;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -89,8 +89,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 90%;
-  margin: 1.96924em 0;
-  background: #fafafa;
+  margin: 1.9692388156em 0;
+  background: #fa5858;
   opacity: 0;
   border-radius: 0.5em;
   border: 1px solid #c3c3c3;
@@ -197,18 +197,18 @@
   top: -1px;
   height: 1.1em;
   border-radius: 0.5em 0.5em 0 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(rgba(250, 250, 250, 0)));
-  background-image: -webkit-linear-gradient(top, #fafafa 50%, rgba(250, 250, 250, 0) 100%);
-  background-image: linear-gradient(to bottom, #fafafa 50%, rgba(250, 250, 250, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa5858), to(rgba(250, 88, 88, 0)));
+  background-image: -webkit-linear-gradient(top, #fa5858 50%, rgba(250, 88, 88, 0) 100%);
+  background-image: linear-gradient(to bottom, #fa5858 50%, rgba(250, 88, 88, 0) 100%);
 }
 
 .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
   bottom: -1px;
   height: 1.2em;
   border-radius: 0 0 0.5em 0.5em;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(rgba(250, 250, 250, 0)));
-  background-image: -webkit-linear-gradient(bottom, #fafafa 50%, rgba(250, 250, 250, 0) 100%);
-  background-image: linear-gradient(to top, #fafafa 50%, rgba(250, 250, 250, 0) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fa5858), to(rgba(250, 88, 88, 0)));
+  background-image: -webkit-linear-gradient(bottom, #fa5858 50%, rgba(250, 88, 88, 0) 100%);
+  background-image: linear-gradient(to top, #fa5858 50%, rgba(250, 88, 88, 0) 100%);
 }
 
 .bigfoot-footnote.is-scrollable ::-webkit-scrollbar {
@@ -232,7 +232,7 @@
   box-sizing: inherit;
   overflow: hidden;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #fa5858;
   border-radius: 0.5em;
   line-height: 0;
 }
@@ -248,7 +248,7 @@
   box-sizing: inherit;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  background: #fafafa;
+  background: #fa5858;
   border-radius: 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: normal;
@@ -278,7 +278,7 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #fafafa;
+  background: #fa5858;
   border: 1px solid #c3c3c3;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
