@@ -43,7 +43,7 @@
       # @since 0.0.1
       # @returns {Boolean}
       # @default false
-      activateOnHover     : false
+      activateOnHover     : true
 
       #*
       # Specifies whether or not multiple footnote popovers can be active simultaneously.
@@ -93,7 +93,7 @@
       # @since 0.0.1
       # @returns {Boolean}
       # @default false
-      deleteOnUnhover     : false
+      deleteOnUnhover     : true
 
       #*
       # The class name for the containing element of the original footnote content. Typically, this will be a class on an `li` that contained the footnote. This element may be removed/ hidden, depending on the option specified for `actionOriginalFN`. This string does not have to be an exact match — the class names will simply be tested for whether they include this string.
